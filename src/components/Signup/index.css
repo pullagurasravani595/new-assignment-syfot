@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+.sinup-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-container {
+    width: 60%;
+    height: 100vh;
+    background-color: #0a041f;
+    padding-left: 80px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.paragraph {
+    color: #fff;
+    font-weight: 200;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
+
+.main-heading {
+    color: #fff;
+    font-size: 40px;
+}
+
+.first-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-heading {
+    color: #0a041f;
+    font-size: 30px;
+}
+
+.link-element {
+    text-decoration: none;
+}
+
+.input-container {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-container {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 40%;
+}
+
+input {
+    padding: 8px;
+    margin-top: 8px;
+    width: 100%;
+    outline: none;
+}
+.password-input {
+    width: 80%;
+    border: none;
+    
+} 
+.password-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 8px;
+}
+.eyes{
+    margin-right: 10px;
+}
+.input-element {
+    width: fit-content;
+    outline: none;
+    border: none;
+}
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.terms {
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.account-btn {
+    background-color: #5f05fa;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-width: 0px;
+    border-radius: 9px;
+}
+
+.in-active {
+    background-color: #5d5d5f;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    border-width: 0px;
+    border-radius: 9px;
+}
+
+@media screen and (max-width: 600px) {
+    .sinup-container {
+        flex-direction: column;
+    }
+    .first-container {
+        width: 100%;
+        height: 45vh;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .profile {
+        width: 25px;
+        height: 25px;
+        margin: 1px;
+    }
+    .paragraph {
+        font-size: 12px;
+    }
+    .second-container {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        height: 50vh;
+    }
+    .terms {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .terms-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
